@@ -28,16 +28,21 @@
 </head>
 <body>
 <header><div class="bar"><a class="logo" href="index.html" aria-label="MonTirSportif Thot — accueil"><img src="img/logo.png" alt="MonTirSportif"></a>
-<nav id="nav"><a href="index.html" class="on" style="--navc:#1d4f91">Accueil</a><a href="thot-dieu-egyptien.html" style="--navc:#1d4f91">Le dieu Thot</a><a href="index.html#mot-de-passe" style="--navc:#1d4f91">Mot de passe fort</a><a href="c-est-nouveau.html" style="--navc:#1d4f91">C’est nouveau</a><a href="plan-du-site.html" style="--navc:#1d4f91">Plan du site</a><a href="https://pistol.montirsportif.com/" target="_blank" rel="noopener">Le site Pistolet ↗</a></nav></div></header>
+<nav id="nav"><a href="index.html" class="on" style="--navc:#1d4f91">Accueil</a><a href="thot-dieu-egyptien.html" style="--navc:#1d4f91">Le dieu Thot</a><a href="eden-paradis.html" style="--navc:#1d4f91">L’Éden</a><a href="index.html#mot-de-passe" style="--navc:#1d4f91">Mot de passe fort</a><a href="c-est-nouveau.html" style="--navc:#1d4f91">C’est nouveau</a><a href="plan-du-site.html" style="--navc:#1d4f91">Plan du site</a><a href="https://pistol.montirsportif.com/" target="_blank" rel="noopener">Le site Pistolet ↗</a></nav></div></header>
 <main class="view on" id="accueil" style="--acc:#1d4f91">
 <div class="hero"><div><img src="img/thot-logo.png" alt="Logo Thot : tête d’oiseau stylisée" width="150" height="150" style="display:block;width:150px;height:auto;margin:.2rem 0 .8rem"><div class="kicker">Écrire, protéger, transmettre</div>
 <h1>Thot</h1>
 <p class="lead">Thot est le dieu égyptien de l’écriture et du savoir, le gardien des secrets. Ce site lui est dédié : découvrez qui il était, et apprenez à protéger vos propres secrets avec un mot de passe fort et la double authentification.</p>
-<nav class="somm" aria-label="Sommaire"><p class="somm-t">Sommaire</p><ul><li><a href="c-est-nouveau.html">C’est nouveau</a><span> — Les dernières nouveautés du site</span></li><li><a href="#thot">Thot, le dieu de l’écriture</a><span> — En bref · page dédiée</span></li><li><a href="#mot-de-passe">Un mot de passe fort</a><span> — Les 5 règles et le testeur</span></li><li><a href="#conseils">Bien gérer ses mots de passe</a><span> — Les bons réflexes</span></li><li><a href="#totp">Le TOTP, un mot de passe à usage unique</a><span> — La double authentification</span></li></ul></nav></div></div>
+<nav class="somm" aria-label="Sommaire"><p class="somm-t">Sommaire</p><ul><li><a href="c-est-nouveau.html">C’est nouveau</a><span> — Les dernières nouveautés du site</span></li><li><a href="#thot">Thot, le dieu de l’écriture</a><span> — En bref · page dédiée</span></li><li><a href="#eden">L’Éden, le paradis</a><span> — Page dédiée</span></li><li><a href="#mot-de-passe">Un mot de passe fort</a><span> — Les 5 règles et le testeur</span></li><li><a href="#conseils">Bien gérer ses mots de passe</a><span> — Les bons réflexes</span></li><li><a href="#totp">Le TOTP, un mot de passe à usage unique</a><span> — La double authentification</span></li></ul></nav></div></div>
 
 <section id="thot" class="first"><div class="kicker">En bref</div><h2>Thot, le dieu de l’écriture</h2>
 <p>Dieu à tête d’ibis, Thot (<i>Djehouty</i> en égyptien) est l’inventeur des hiéroglyphes, le patron des scribes, le maître des nombres, de la lune et du temps. Il est aussi le greffier qui note le verdict lors de la pesée du cœur des défunts. Son histoire complète, de son apparence à son héritage, est sur une page dédiée.</p>
 <div class="sec-tiles"><a class="tile-page" href="thot-dieu-egyptien.html"><small>Page dédiée</small><b>Thot, le dieu égyptien de l’écriture →</b></a></div>
+</section>
+
+<section id="eden"><div class="kicker">Le jardin des origines</div><h2>L’Éden, le paradis</h2>
+<p>Le jardin d’Éden de la Genèse, l’origine du mot « paradis », les Champs d’Ialou où les Égyptiens espéraient vivre après la pesée du cœur, et la place du paradis dans les religions et la culture.</p>
+<div class="sec-tiles"><a class="tile-page" href="eden-paradis.html"><small>Page dédiée</small><b>L’Éden, le paradis →</b></a></div>
 </section>
 
 <section id="mot-de-passe"><div class="kicker">Les 5 règles</div><h2>Un mot de passe fort</h2>
@@ -100,6 +105,6 @@ document.getElementById('ck-no').addEventListener('click',function(){save('no');
 document.addEventListener('click',function(e){if(e.target.closest('[data-cookies]')){e.preventDefault();b.hidden=false;document.getElementById('ck-no').focus();}});})();</script>
 <script>document.querySelectorAll(".yt").forEach(function(w){var b=w.querySelector(".yt-btn");if(!b||w.dataset.bound)return;w.dataset.bound=1;b.addEventListener("click",function(){var f=document.createElement("iframe");f.src="https://www.youtube-nocookie.com/embed/"+w.dataset.id+"?autoplay=1&rel=0";f.title="Vidéo";f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;w.innerHTML="";w.appendChild(f);});});</script>
 <script src="js/share.js"></script>
-<script src="js/nav.js?v=20261124sq2" defer></script>
+<script src="js/nav.js?v=20261124eden" defer></script>
 </body>
 </html>
