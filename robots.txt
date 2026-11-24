@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thot.montirsportif.com/sitemap.xml
