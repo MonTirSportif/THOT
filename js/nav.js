@@ -20,6 +20,7 @@
 
   var T = {
     'index.html': ['Accueil', null],
+    'thot-dieu-egyptien.html': ['Le dieu Thot', 'index.html'],
     'c-est-nouveau.html': ["C'est nouveau", 'index.html'],
     'plan-du-site.html': ['Plan du site', 'index.html']
   };
